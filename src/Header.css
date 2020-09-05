@@ -11,6 +11,7 @@
 
 .header__left {
 	display: flex;
+	justify-content: space-evenly;
 }
 
 .header__left > img {
@@ -29,6 +30,7 @@
 .header__input > input {
 	border: none;
 	background-color: transparent;
+	outline-width: 0;
 }
 
 .header__middle {
@@ -55,6 +57,8 @@
 .header__option:hover {
 	background-color: #eff2f5;
 	border-radius: 10px;
+	align-items: center;
+	padding: 0 30px;
 	border-bottom: none;
 }
 
@@ -69,6 +73,7 @@
 .header__info {
 	display: flex;
 	align-items: center;
+	font-size: small;
 }
 
 .header__info > h4 {
